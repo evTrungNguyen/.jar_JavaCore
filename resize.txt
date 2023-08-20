@@ -1,0 +1,32 @@
+//        lblImage.setIcon(resizeImage(String.valueOf(list.get(index).getLinkImage())));
+
+
+//        lblImage.setIcon(resizeImage(linkImage));
+
+
+
+//        public ImageIcon resizeImage(String ImagePath){
+//        ImageIcon image = null;
+//        try {
+//            BufferedImage staff_img=ImageIO.read(new File(ImagePath));
+//            int x =lblImage.getSize().width;
+//            int y =lblImage.getSize().height;
+//            int ix =staff_img.getWidth();
+//            int iy =staff_img.getHeight();
+//            int dx;
+//            int dy;
+//            if(x /y > ix /iy){
+//                dy=y;
+//                dx=dy*ix /iy;
+//            }else{
+//                dx=x;
+//                dy=dx*iy/ix;
+//            }
+//            image = new ImageIcon(staff_img.getScaledInstance(dx, dy, BufferedImage.SCALE_SMOOTH));
+//            lblImage.setIcon(image);
+//            
+//        } catch (Exception ex) {
+//            
+//        }
+//        return image;
+//    }
